@@ -18,7 +18,7 @@ Teamwork, training, mentoring, public speaking, solution of organizational issue
 
 ## Skills
 
-Page proofs using **_HTML, CSS, Figma. Github_**.
+Page proofs using **_HTML, CSS, JS, Figma. Github_**.
 
 **Site layout** ["Betonmibil"](https://spadarynjaalina.github.io/Betonmobil/)
 

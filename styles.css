@@ -1,0 +1,172 @@
+* {
+ font-size: 24px;
+ font-family: "Roboto", sans-serif;
+ color: #373741;
+}
+
+body {
+ 
+ height: 100%;
+ margin: auto;
+ border: 1px solid #222222;
+}
+
+html {
+ height: 100vh;
+ width: auto;
+}
+
+header {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ margin: auto;
+ margin-bottom: 0;
+}
+
+main {
+ margin: auto;
+ margin-top: 40px;
+ align-items: center;
+ justify-content: center;
+}
+
+section {
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: row;
+}
+
+figure {
+ margin-right: 150px;
+ margin-left: 0;
+ width: 600px;
+}
+
+div {
+ display: flex;
+ flex-direction: column;
+ width: 1000px;
+ padding-top: 10px;
+ margin-top: 90px auto;
+ border-top: 7px solid #92c2bc;
+}
+
+header > div,
+footer > div {
+ border: none;
+ margin-top: 0;
+}
+
+li {
+ list-style-type: none;
+ margin: 50px;
+ margin-top: 0;
+ margin-left: 0;
+ 
+}
+
+ul {
+ padding-left: 50px;
+ margin: 0;
+ 
+ font-style: normal;
+}
+
+h1 {
+ margin-top: 50px;
+ margin-left: 0;
+ font-size: 100px;
+ text-align: left;
+}
+
+h2 {
+ width: 500px;
+ padding-right: 213px;
+  
+ font-size: 40px;
+ text-align: right;
+}
+
+h3 {
+ font-size: 30px;
+}
+
+a {
+ vertical-align: middle;
+
+ text-decoration: none;
+ font-size: 40px;
+ color: #406564;
+}
+
+a:hover {
+ background-color: rgba(146, 194, 188, 0.3);
+ box-shadow: 0 0 30px 15px rgba(146, 194, 188, 0.3);
+}
+
+a:visited {
+ color: #678985;
+}
+
+address {
+ height: 647px;
+ border-left: 7px solid #92c2bc;
+ margin-left: 35px;
+}
+
+.skills-li {
+ border: 0;
+}
+
+.skills-li > li {
+ display: inline-block;
+}
+
+.github {
+ position: relative;
+ right: 765px;
+ top: 30px;
+}
+
+.instagram {
+ position: relative;
+ right: 330px;
+ top: 35px;
+}
+
+.email {
+ position: relative;
+ right: 542px;
+ top: 30px;
+}
+
+.twitter {
+ position: relative;
+ right: 425px;
+ top: 30px;
+}
+
+footer {
+ display: flex;
+width: 1716px;
+ margin: auto;
+
+ justify-content: space-between;
+}
+
+.gh-footer {
+ padding-top: 25px;
+
+ text-align: center;
+}
+
+.time {
+ padding-top: 30px;
+}
+
+.rs-school > a {
+ align-self: flex-end;
+}

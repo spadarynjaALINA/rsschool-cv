@@ -5,8 +5,8 @@
 }
 
 body {
- 
- height: 100%;
+ width:1880px; 
+ height: auto;
  margin: auto;
  border: 1px solid #222222;
 }

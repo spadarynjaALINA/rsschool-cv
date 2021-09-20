@@ -492,6 +492,9 @@ code {
 .footer-wrapper div {
   margin-bottom: 25px;
 }
+.projects h3 {
+font-size: 32px;
+}
 }
 
 /*----------------------------------------------------------------------*/
@@ -503,6 +506,10 @@ code {
 
 .media-name {
   margin-top: 70px;
+}
+.project-wrapper a {
+  width: 100%;
+  margin: 0;
 }
 
 figure,

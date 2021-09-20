@@ -98,23 +98,25 @@
             <li>Figma/Photoshop</li>
           </ul>
           <h3>Some code</h3>
-          <pre class="code"><code class="javascript">createDreamTeam(members) {
-  if (!Array.isArray(members)) {
-    return false
-  } else {
-    let names=[]
-    for (let i = 0; i < members.length; i++){
-      if (typeof members[i] == "string") {
-        let a = members[i].trim()
-  names.push(a[0])
-}
-    } let result = names.join('')
-    .toUpperCase()
-    .split('')
-    .sort()
-    .join('')
-    return result
-  }
+          <pre class="code"><code class="javascript">
+  function decode(expr) {
+    
+    if (expr.length % 10 !== 0) {
+        return false;
+    }
+    else {
+        let arr = expr.match(/.{1,10}/g)
+        .map(i => i.replace(/11/g, '-').replace(/10/g, '.')
+        .replace(/00/g, ''))
+          .map(function (i) { 
+            if (i !== '**********') {
+               return i = MORSE_TABLE[i]
+               } else { 
+                 return i = " " } })
+                 .join('')
+        
+        return arr;
+    }
 }</code></pre>
         </div>
       </section>
@@ -172,8 +174,8 @@
       <section class="video-cv container description" id="video-cv">
         <h2>My video CV</h2>
         <div class="video-wrap wrapper">
-          <iframe width="1067" height="600.4" src="https://www.youtube.com/embed/AHCEehbI3zo"
-            title="YouTube video player" frameborder="0"
+          <iframe width="1067" height="600" src="https://www.youtube.com/embed/AHCEehbI3zo" title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen class="video"></iframe>
         </div>

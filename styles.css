@@ -507,9 +507,9 @@ font-size: 32px;
 .media-name {
   margin-top: 70px;
 }
-.project-wrapper a {
-  width: 100%;
-  margin: 0;
+.project-item {
+  width: 95%;
+  margin: 0 auto;
 }
 
 figure,

@@ -82,7 +82,7 @@ body {
   
 }
 .btn-menu {
- position: absolute;
+ position: fixed;
   right: 1px;
   top:0;
   border-radius: 5px;
@@ -128,22 +128,6 @@ body {
  padding-left: 15px;
  
 }
-
-.nav-link:active ~ .btn-menu > span {
-  transform: rotate(45deg);
-}
-
-.nav-link:focus ~ .btn-menu > span::before {
-   content: '';
-  top: -25px;
-}
-
-.nav-link:active ~ .btn-menu > span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-
-
 
 .contact-list {
  height: 100%;

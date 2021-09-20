@@ -1,11 +1,10 @@
 
-const menuLink = document.querySelectorAll('.menu-link')
-const menuToggle = document.getElementById('#menu_toggle')
+let menuLink = document.querySelectorAll('.nav-link')
+let menuToggle = document.querySelector('input')
 
-menuLink.onclick = function () {
- 
- 
-}
-menuLink.addEventListener('click', () => {
-menuToggle.checked = true
+menuLink.forEach(element => {element.addEventListener
+ ('click', () => {
+ console.log('menuLink.namespaceURI')
+ menuToggle.checked = false
 })
+});

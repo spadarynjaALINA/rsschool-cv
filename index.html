@@ -104,7 +104,7 @@
           <h3>Some code</h3>
           <pre class="code"><code class="javascript">
   function decode(expr) {
-    
+
     if (expr.length % 10 !== 0) {
         return false;
     }
@@ -112,13 +112,13 @@
         let arr = expr.match(/.{1,10}/g)
         .map(i => i.replace(/11/g, '-').replace(/10/g, '.')
         .replace(/00/g, ''))
-          .map(function (i) { 
+          .map(function (i) {
             if (i !== '**********') {
                return i = MORSE_TABLE[i]
-               } else { 
+               } else {
                  return i = " " } })
                  .join('')
-        
+
         return arr;
     }
 }</code></pre>
@@ -127,11 +127,10 @@
       <section class="Projects container description" id="projects">
         <h2>My projects</h2>
         <div class="project-wrapper">
-          <a class="project-item" href="https://rolling-scopes-school.github.io/spadarynjaalina-JSFEPRESCHOOL/museum/"
-            target="_blank">
+          <a class="project-item" href="https://spadarynjaalina.github.io/museum/#" target="_blank">
             <img src="images/Museum.jpg" alt="Museum" width="350">
             <h3>Museum</h3>
-            <p class="card-description-1">Fixed layout of landing page by using HTML, CSS, Figma and a little bit of JS
+            <p class="card-description-1">Landing page by using HTML, CSS, Figma and a little bit of JS
             </p>
 
           </a>
@@ -178,22 +177,14 @@
         <h2>English</h2>
         <div class="wrapper">
           <div class="lang">
-            <h3> A1 </h3>
+            <h3> A2+ </h3>
             <p class="loading">. . . . . . . . . . . . .</p>
-            <h3 class="future"> A2 </h3>
+            <h3 class="future"> B1 </h3>
           </div>
           <p>Studied English at school and at medical university.</p>
         </div>
       </section>
-      <section class="video-cv container description" id="video-cv">
-        <h2>My video CV</h2>
-        <div class="video-wrap wrapper">
-          <iframe class="video" width="1067" height="600" src="https://www.youtube.com/embed/G7QZOt5SdK4"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-      </section>
+
     </main>
     <footer class="footer-container">
       <div class="footer-wrapper ">

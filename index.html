@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rsschool-cv-html</title>
+  <link rel=" stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="header-container">
+
+        <nav class="nav burger-menu">
+          <input id="menu-toggle" type="checkbox" />
+          <label class="btn-menu" for="menu-toggle">
+            <span></span>
+          </label>
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item "><a class="nav-link" href="#english">English</a></li>
+            <li class="nav-item"><a class="nav-link" href="#video-cv">Video CV</a></li>
+          </ul>
+
+        </nav>
+      </div>
+
+    </header>
+
+    <main>
+      <section class="contacts container" id="contacts">
+        <h2 class="media-name">Alina Husarava</h2>
+        <div class="media-wrapper">
+          <figure>
+            <img class="photo" src="images/cv-photo.jpg" alt="Alina Husarava" width="350">
+          </figure>
+          <div class="contact-list">
+            <h1>Alina Husarava</h1>
+            <address>
+              <ul class="address-list">
+
+                <li class="email-link">
+                  <a href="alinagusarik@gmail.com" target="_blank">alinagusarik@gmail.com</a>
+
+                </li>
+                <li class="twitter-link">
+                  <a href="https://twitter.com/Dashing_gusarik" target="_blank">@Dashing_gusarik</a>
+                </li>
+                <li class="git-link">
+                  <a href="https://github.com/spadarynjaALINA " target="_blank">spadarynjaALINA</a>
+
+                </li>
+
+
+                <li class="codewars-link">
+                  <a href="https://www.codewars.com/users/spadarynjaALINA" target="_blank">spadarynjaALINA</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
+      </section>
+
+      <section class="about container description" id="about">
+        <h2>About me</h2>
+        <div class="about-wrapper wrapper">
+          <h3>Personal skills</h3>
+          <p>Purposeful, punctual, responsible, hardworking, ability to make
+            quick decisions, constant self-improvement.</p>
+          <h3>Previous place of work</h3>
+          <p>2014-2015: RUE «Belmedpreparaty», pharmaceutical sales representatives </p>
+          <p>2014: Ambulance stations medical care, emergency physician </p>
+          <p>2015-current time: Ambulance stations medical care, senior emergency physician </p>
+          <h3>Experience gained at the previous place of work</h3>
+          <p>Teamwork, training, mentoring, public speaking, solution of organizational issues and administrative work.
+          </p>
+        </div>
+      </section>
+      <section class="skills container description" id="skills">
+        <h2>Skills</h2>
+        <div class="wrapper">
+          <h3> Landing pages by using:</h3>
+          <ul class="skills-li">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>GitHub</li>
+            <li>Figma/Photoshop</li>
+          </ul>
+          <h3>Some code</h3>
+          <pre class="code"><code class="javascript">
+  function decode(expr) {
+
+    if (expr.length % 10 !== 0) {
+        return false;
+    }
+    else {
+        let arr = expr.match(/.{1,10}/g)
+        .map(i => i.replace(/11/g, '-').replace(/10/g, '.')
+        .replace(/00/g, ''))
+          .map(function (i) {
+            if (i !== '**********') {
+               return i = MORSE_TABLE[i]
+               } else {
+                 return i = " " } })
+                 .join('')
+
+        return arr;
+    }
+}</code></pre>
+        </div>
+      </section>
+      <section class="Projects container description" id="projects">
+        <h2>My projects</h2>
+        <div class="project-wrapper">
+          <a class="project-item" href="https://spadarynjaalina.github.io/museum/#" target="_blank">
+            <img src="images/Museum.jpg" alt="Museum" width="350">
+            <h3>Museum</h3>
+            <p class="card-description-1">Landing page by using HTML, CSS, Figma and a little bit of JS
+            </p>
+
+          </a>
+          <a class="project-item" href="https://spadarynjaalina.github.io/Betonmobil/" target="_blank">
+            <img src="images/beton.jpg" alt="Betonmobil" width="350">
+            <h3>Betonmobil</h3>
+            <p class="card-description">Fixed layout of landing page by using HTML, CSS, Figma</p>
+
+          </a>
+          <a class="project-item"
+            href="https://rolling-scopes-school.github.io/spadarynjaalina-JSFEPRESCHOOL/vertical-slider/"
+            target="_blank">
+            <img src="images/slider.jpg" alt="Vertical slider" width="350">
+            <h3>Vertical slider</h3>
+            <p class="card-description">Vertical infinity slider with two simultaneous directions by using HTML, CSS, JS
+            </p>
+
+          </a>
+          <a class="project-item"
+            href="https://rolling-scopes-school.github.io/spadarynjaalina-JSFEPRESCHOOL/custom-video-player/"
+            target="_blank">
+            <img src="images/player.jpg" alt="Video player" width="350">
+            <h3>Video player</h3>
+            <p class="card-description">Custom video player with the ability to switch video by using HTML, CSS, JS</p>
+
+          </a>
+        </div>
+      </section>
+      <section class="education container description" id="education">
+        <h2>Education</h2>
+        <div class="wrapper">
+          <h3>2007-2013: Belarusian State Medical University</h3>
+          <p>Faculty of General Medicine</p>
+          <h3>2013-2014: Internship </h3>
+          <p>Emergency medicine</p>
+          <h3>2021- current time: Rolling Scopes School</h3>
+          <p> "JS / FRONT-END. STAGE 0" </p>
+          <p>Studying in "JS / FRONT-END. STAGE 1"</p>
+          <h3>Self-education</h3>
+          <p>Books, simulators, videos.</p>
+        </div>
+      </section>
+      <section class="english container description" id="english">
+        <h2>English</h2>
+        <div class="wrapper">
+          <div class="lang">
+            <h3> A2+ </h3>
+            <p class="loading">. . . . . . . . . . . . .</p>
+            <h3 class="future"> B1 </h3>
+          </div>
+          <p>Studied English at school and at medical university.</p>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer-container">
+      <div class="footer-wrapper ">
+        <div class="time">
+          <time datetime="2021-09-20">September 20, 2021</time>
+        </div>
+        <div class="gh-footer">
+          <a href="https://github.com/spadarynjaALINA" target="_blank">spadarynjaALINA</a>
+        </div>
+        <div class="rs-school">
+          <a href="https://rs.school/js/"><img src="images/rs_school_js.svg" alt="RS school logo" width="100"
+              height="74"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+
+
+</body>
+
+</html>
